@@ -37,7 +37,7 @@ export const emoji = () => (
 
 本例中，组件是Button。`title`决定了Storybook左侧导航面板中该组的标题，并且应该是唯一的，即不能在文件之间重复使用。在这个示例中，它位于顶层，但通常位于Story层次结构内。
 
-本示例以Storybook的[Component Story Format](../formats-1/component-story-format.md)（CSF）编写。故事书还支持：
+本示例以Storybook的[Component Story Format](../formats/component-story-format.md)（CSF）编写。故事书还支持：
 
 * 经典的StoryOf API，可通过Storybook的API添加stories。
 * 一种实验性的MDX语法，它混合了Markdown长格式文档和JSX stories。
