@@ -37,7 +37,7 @@ export const emoji = () => (
 
 本例中，组件是Button。`title`决定了Storybook左侧导航面板中该组的标题，并且应该是唯一的，即不能在文件之间重复使用。在这个示例中，它位于顶层，但通常位于Story层次结构内。
 
-本示例以Storybook的[Component Story Format](../readme-3/component-story-format.md)（CSF）编写。故事书还支持：
+本示例以Storybook的[Component Story Format](../formats-1/component-story-format.md)（CSF）编写。故事书还支持：
 
 * 经典的StoryOf API，可通过Storybook的API添加stories。
 * 一种实验性的MDX语法，它混合了Markdown长格式文档和JSX stories。
@@ -291,7 +291,7 @@ export const empty = () => <Checkbox label="empty" />;
 export const checked = () => <Checkbox label="checked" checked />;
 ```
 
-默认情况下，顶级标题将被视为其他任何组，但是如果您希望将其特别强调为“根”，请使用showRoots配置选项。请参阅[配置选项参数](../readme-2/options-parameter.md)页面以了解更多信息。
+默认情况下，顶级标题将被视为其他任何组，但是如果您希望将其特别强调为“根”，请使用showRoots配置选项。请参阅[配置选项参数](../configurations/options-parameter.md)页面以了解更多信息。
 
 ## 根据\_\_dirname生成嵌套路径
 
