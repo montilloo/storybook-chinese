@@ -30,7 +30,7 @@
   * [CLI配置](configurations/cli-options.md)
   * [独立配置](configurations/standlone-options.md)
 * [格式化](formats/README.md)
-  * [CSF](formats/component-story-format.md)
+  * [Component Story Format \(CSF\)](formats/component-story-format.md)
   * [StoriesOf API](formats/storiesof-api.md)
   * [MDX 语法](formats/mdx-syntax.md)
 * [测试](testing/README.md)
