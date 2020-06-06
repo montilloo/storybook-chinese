@@ -4,7 +4,7 @@ Storybook UI可以使用选项API进行配置，该API允许您针对每个story
 
 ## 全局options
 
-{% embed url="https://在manager.js文件中导入并使用setConfig。" %}
+在manager.js文件中导入并使用setConfig。
 
 ```text
 import { addons } from '@storybook/addons';
